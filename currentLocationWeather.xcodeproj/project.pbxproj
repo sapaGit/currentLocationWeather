@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A061CE9F2852F440002C36F6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A061CE9E2852F440002C36F6 /* Constants.swift */; };
 		A06635372851D6E5000766F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06635362851D6E5000766F6 /* AppDelegate.swift */; };
 		A06635392851D6E5000766F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06635382851D6E5000766F6 /* SceneDelegate.swift */; };
 		A066353B2851D6E5000766F6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A066353A2851D6E5000766F6 /* ViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A061CE9E2852F440002C36F6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A06635332851D6E5000766F6 /* currentLocationWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = currentLocationWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A06635362851D6E5000766F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A06635382851D6E5000766F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				A06635362851D6E5000766F6 /* AppDelegate.swift */,
 				A06635382851D6E5000766F6 /* SceneDelegate.swift */,
 				A066353A2851D6E5000766F6 /* ViewController.swift */,
+				A061CE9E2852F440002C36F6 /* Constants.swift */,
 				A066353C2851D6E5000766F6 /* Main.storyboard */,
 				A066353F2851D6E6000766F6 /* Assets.xcassets */,
 				A06635412851D6E6000766F6 /* LaunchScreen.storyboard */,
@@ -173,6 +176,7 @@
 				A06635522851DBAA000766F6 /* HourlyTableViewCell.swift in Sources */,
 				A06635372851D6E5000766F6 /* AppDelegate.swift in Sources */,
 				A06635392851D6E5000766F6 /* SceneDelegate.swift in Sources */,
+				A061CE9F2852F440002C36F6 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
