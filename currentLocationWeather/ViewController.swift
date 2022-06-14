@@ -79,8 +79,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             guard let result = json else {
                 return
             }
-            print(result.weather)
+            let temp = result.main
+            print(temp)
             //Update user interface
+            DispatchQueue.main.async {
+                self.tableView.reloadData()
+            }
         }.resume()
         
     }
